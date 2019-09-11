@@ -10,6 +10,7 @@ namespace whatsForLunch
         {
             var addBuddyFname = new LunchBuddy("test", "tes1");
             addBuddyFname.giveGetLunchBuddyFullName();
+            addBuddyFname.Eat();
 
             var testing = new Restaurant();
             testing.GetRndRestName();

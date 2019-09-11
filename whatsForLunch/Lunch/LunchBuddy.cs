@@ -29,8 +29,17 @@ namespace whatsForLunch.Lunch
 
         public void Eat(string food)
         {
-
+            Console.WriteLine(food);
         }
 
+        public void Eat(List<Employee>companions)
+        {
+            Console.WriteLine(companions);
+        }
+
+        public void Eat(string food, List<Employee> companions)
+        {
+            Console.WriteLine($"{food}, {companions}");
+        }
     }
 }

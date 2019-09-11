@@ -1,4 +1,6 @@
 ﻿using System;
+using whatsForLunch.Lunch;
+using whatsForLunch.Restaurants;
 
 namespace whatsForLunch
 {
@@ -6,7 +8,11 @@ namespace whatsForLunch
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var addBuddyFname = new LunchBuddy("test", "tes1");
+            addBuddyFname.giveGetLunchBuddyFullName();
+
+            var testing = new Restaurant();
+            testing.GetRndRestName();
         }
     }
 }
